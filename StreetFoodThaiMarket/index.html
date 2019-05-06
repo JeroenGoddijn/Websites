@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/footer.css">
+
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <div class="container-fluid p-0">
@@ -32,7 +33,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul id="menu-main-nav" class="navbar-nav nav.fill mr-auto mt-2 mt-lg-0 w-100">
+                    <ul id="menu-main-nav" class="navbar-nav nav-fill mr-auto mt-2 mt-lg-0 w-100">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -53,10 +54,10 @@
                             </div>
                         </li> -->
                     </ul>
-                    <!-- <form class="form-inline my-2 my-lg-0" id="search">
+                    <form class="form-inline w-100 my-2 my-lg-0" id="search">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
-                    </form> -->
+                    </form>
                 </div>
             </nav>
 
@@ -81,11 +82,10 @@
             
             
 
-            <div class="section bg-light w-100 p-0 m-0 position-absolute" id="about">
-                <div class="row">
-                    <div class="col-md-6 p-5">
-                        <!-- <div class="w-75 my-auto mx-auto rounded boxShadow d-none d-md-block"> -->
-                            <div id="foodCarousel" class="carousel slide" data-ride="carousel">
+            <div class="section d-flex bg-dark text-light m-0 position-relative justify-center" style="top: 0px; left: 0px;" id="about">
+                <div class="row m-0">
+                    <div class="col-md-5 offset-1 w-75 h-75">
+                            <div id="foodCarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
                                 <!-- <ol class="carousel-indicators">
                                     <li data-target="#carouselId" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselId" data-slide-to="1"></li>
@@ -93,13 +93,13 @@
                                 </ol>  -->
                                 <div class="carousel-inner d-flex justify-content-center align-items-center" role="listbox">
                                     <div class="carousel-item active">
-                                        <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" src="images/carousel/BeefJerky.jpg" alt="Beef Jerky">
+                                        <img class="d-block w-100" data-src="holder.js/900x500/auto/#777:#555/text:First slide" src="images/carousel/BeefJerky.jpg" alt="Beef Jerky">
                                     </div>
                                     <div class="carousel-item">
-                                        <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" src="images/carousel/KhaoSoiGai.jpg" alt="Khao Soi Gai">
+                                        <img class="d-block w-100" data-src="holder.js/900x500/auto/#666:#444/text:Second slide" src="images/carousel/KhaoSoiGai.jpg" alt="Khao Soi Gai">
                                     </div>
                                     <div class="carousel-item">
-                                        <img data-src="holder.js/900x500/auto/#666:#444/text:Third slide" alt="Third slide">
+                                        <img class="d-block w-100" data-src="holder.js/900x500/auto/#666:#444/text:Third slide" src="images/carousel/RotiCurry.jpg" alt="Roti with Curry Sauce">
                                     </div>
                                 </div>
                                 <!-- <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
@@ -111,37 +111,37 @@
                                     <span class="sr-only">Next</span>
                                 </a>  -->
                             </div>  <!-- /#foodCarousel -->
-                        <!-- </div> -->
                     </div>
-                    <div class="col-md-6 p-5 lead h-100">
-                        <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis blanditiis assumenda eveniet expedita veniam voluptates, laborum omnis. Ut dignissimos eum ad nulla voluptatum laudantium commodi molestiae vero, unde facere eaque.
-                        </div>
+                    <div class="col-md-5 lead h-100" id="about-title">
+                        <h2>Authentic Thai Street Food</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus elementum sagittis vitae et leo duis. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Enim sed faucibus turpis in eu. Nullam vehicula ipsum a arcu. Pellentesque elit eget gravida cum sociis natoque. Nunc mi ipsum faucibus vitae aliquet. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Eget mauris pharetra et ultrices neque. Placerat duis ultricies lacus sed. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. In fermentum et sollicitudin ac orci. Sollicitudin tempor id eu nisl nunc mi ipsum.
+                        </p>
                     </div>
                 </div>
-            </div>
+            </div> <!-- /about -->
         
-            <div class="section bg-light position-absolute" id="reviews">
-                <div class="row w-100 m-0">
-                    <div class="col-md-6">
-                        <div id="reviewTextCarousel" class="carousel slide" data-ride="carousel">
+            <div class="section bg-light text-dark w-100 m-0 position-relative justify-content-center" id="reviews">
+                <div class="row col-md-12">
+                    <div class="col-md-10 offset-2">
+                        <div id="reviewTextCarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
                             <!-- <ol class="carousel-indicators">
                                 <li data-target="#carouselId" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselId" data-slide-to="1"></li>
                                 <li data-target="#carouselId" data-slide-to="2"></li>
                             </ol>  -->
-                            <div class="carousel-inner d-flex justify-content-center align-items-center" role="listbox">
+                            <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
                                     <div class="carousel-content">
-                                        <div class="row">
-                                            <div class="col-md-4 review-stars">
+                                        <div class="row justify-content-center align-content-center">
+                                            <div class="col-md-2 review-stars">
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
                                             </div>
-                                            <div class="col-md-8 review-text">
+                                            <div class="col-md-10 review-text">
                                                 I love love love this place . But it isn't for the faint hearted foodie . The food taste so authentic, flavorful and when you say Thai spice they mean it , I always come hungry and leave with my spice addiction satisfied.
                                                 <br />
                                                 <p class="review-author">
@@ -153,19 +153,22 @@
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row w-100">
-                                        <div class="col-md-4 review-stars">
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
+                                        <div class="col-md-4 review-image">
                                         </div>
-                                        <div class="col-md-8 review-text">
-                                            I love love love this place . But it isn't for the faint hearted foodie . The food taste so authentic, flavorful and when you say Thai spice they mean it , I always come hungry and leave with my spice addiction satisfied.
-                                            <br />
-                                            <p class="review-author">
-                                                Yumi N.
-                                            </p>
+                                        <div class="col-md-8 review">
+                                            <div class="row review-stars align-items-center">
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="review-author">
+                                                    Jordan C.
+                                                </span>
+                                            </div>
+                                            <div class="row review-text">
+                                                Want the best Thai food in Houston? Come here! This place is so unassuming from the outside and the store front resembles that of a "mini mart". That being said the food you get inside is so incredibly authentic and to say that it is just delicious is an injustice to the kitchen. They offer a variety of spice levels as well so it's very inclusive to those with a palate that is sensitive to spice.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -179,10 +182,10 @@
                                             <span class="fas fa-star checked"></span>
                                         </div>
                                         <div class="col-md-8 review-text">
-                                            I love love love this place . But it isn't for the faint hearted foodie . The food taste so authentic, flavorful and when you say Thai spice they mean it , I always come hungry and leave with my spice addiction satisfied.
+                                            I've been here many times, and I also went to Thailand (Bangkok, Ayutthaya, and Chiang Mai) a couple of months ago. I did not appreciate this restaurant until I went to Thailand since it's so authentic! The menu at this establishment is so extensive, and almost everything I've had has been delicious. There are some menu items (i.e. Kao Soi, Beef laab raw, Nam Khao, etc.) at this restaurant that will be very difficult to find here in the Houston, but staples in Thailand.
                                             <br />
                                             <p class="review-author">
-                                                Yumi N.
+                                                David N.
                                             </p>
                                         </div>
                                     </div>
@@ -199,49 +202,48 @@
                         </div>
                     </div>  <!-- /#reviewTextCarousel -->
                 </div>
-            </div>
+            </div> <!-- /reviews -->
             
-            <!-- <div class="section bg-dark w-100 position-absolute" id="locationhours">
-                <div class="row justify-content-center align-items-around">
-                    <div class="col-sm-10" id="location">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="holder.js/100x180/" alt="">
-                                <div class="card-body">
-                                    <h4 class="card-title">Opening Hours</h4>
-                                    <p class="card-text">
-                                        <p>
-                                            Sunday - Thursday <br />
-                                            <span>11:00 AM - 8:30 PM</span>
-                                        </p>
-                                        <p>
-                                            Friday & Saturday <br />
-                                            <span>11:00 AM - 9:00 PM </span>
-                                        </p>
+            <div class="section bg-dark w-100 position-absolute" id="locationhours">
+                <div class="card-deck justify-content-center">
+                    <div class="col-md-4" id="location">
+                        <div class="card">
+                            <img class="card-img-top" src="images/venue/street-food-thai-market-feature-730x350.jpg" alt="Street Food Thai Market front">
+                            <div class="card-body">
+                                <h4 class="card-title">Opening Hours</h4>
+                                <p class="card-text">
+                                    <p>
+                                        Sunday - Thursday <br />
+                                        <span>11:00 AM - 8:30 PM</span>
                                     </p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1681.4443555141618!2d-95.38626458128091!3d29.80415588348567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b89af6a4560b%3A0xc0c06c0a6ed1e5b2!2sStreet+Food+Thai+Market!5e0!3m2!1sen!2sus!4v1557030131405!5m2!1sen!2sus" alt="">
-                                <div class="card-body">
-                                    <h4 class="card-title">Location</h4>
-                                    <p class="card-text">
-                                        <p>
-                                            Suite D <br />
-                                            <span>1010 W Cavalcade St</span> <br />
-                                            <span>Houston, TX 77009</span>
-                                        </p>
-                                        <p>
-                                            <i class="fas fa-phone"></i> (346)-406-3177
-                                        </p>
+                                    <p>
+                                        Friday & Saturday <br />
+                                        <span>11:00 AM - 9:00 PM </span>
                                     </p>
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-    
-            </div> -->
+                    <div class="col-md-4" id="location">
+                        <div class="card">
+                            <div id="map" class="card-img-top"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Location</h4>
+                                <p class="card-text">
+                                    <p>
+                                        Suite D <br />
+                                        <span>1010 W Cavalcade St</span> <br />
+                                        <span>Houston, TX 77009</span>
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-phone"></i> (346)-406-3177
+                                    </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
         
     </div> <!-- .container-fluid -->
         
@@ -250,5 +252,25 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>
+                // Initialize and add the map
+                function initMap() {
+                    // The location of Uluru
+                    var uluru = {lat: 29.804188, lng: -95.385149};
+                    // The map, centered at Uluru
+                    var map = new google.maps.Map(
+                        document.getElementById('map'), {zoom: 13, center: uluru});
+                    // The marker, positioned at Uluru
+                    var marker = new google.maps.Marker({position: uluru, map: map});
+                }
+            </script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyQHv1yw4IuppXmUwIKXyKUB2vBApPc2w&callback=initMap">
+            </script>        
      </body>
 </html>

@@ -1,29 +1,47 @@
 
 .section {
-    height: 350px;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#about-title h2 {
     padding-top: 30px;
+    padding-bottom: 20px;
+    color: #fed136;
+}
+
+#reviews {
+    height: 300px;
 }
 
 .imgHeight {
     height: 150px;   
 }
 
-.carousel-inner > .item > img {
-    width: 100%;
+.carousel-item {
+    margin-right: 0%;
+    vertical-align: middle;
+    width: 75%;
+    height: 75%;
 }
 
 #gallery-food {
- padding-top: 30px;
- padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#reviewTextCarousel .carousel-content {
-    text-size: 12px;
+#reviewTextCarousel .review-text {
+    font-style: italic;
+    font-weight: 700;
 }
 
 #reviewTextCarousel .review-author {
     font-weight: bold;
-    font-style: italic;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 #reviewTextCarousel .checked {
@@ -31,8 +49,14 @@
 }
 .card {
     text-align: center;
+    width: 75%;
 }
 
 .card-deck {
     padding-top: 50px;
+}
+
+.card-img-top {
+    height: 200px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
 }
