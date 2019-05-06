@@ -1,0 +1,38 @@
+
+.section {
+    height: 350px;
+    padding-top: 30px;
+}
+
+.imgHeight {
+    height: 150px;   
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+}
+
+#gallery-food {
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+#reviewTextCarousel .carousel-content {
+    text-size: 12px;
+}
+
+#reviewTextCarousel .review-author {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#reviewTextCarousel .checked {
+    color: red;
+}
+.card {
+    text-align: center;
+}
+
+.card-deck {
+    padding-top: 50px;
+}

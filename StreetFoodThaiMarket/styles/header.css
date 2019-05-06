@@ -1,0 +1,29 @@
+.navbar {
+    z-index: 99;
+    width: 100%;
+}
+
+#mainNav .navbar-brand {
+    color: #fed136;
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 30px;
+}
+
+#mainNav .navbar-brand img {
+    height: 70px;
+}
+
+#mainNav .nav-link {
+    text-transform: uppercase;
+}
+
+#mainNav form #search{
+    color: #fed136;
+    border-color: #fed136;
+}
+
+.header {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
