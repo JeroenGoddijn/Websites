@@ -61,10 +61,10 @@
                 </div>
             </nav>
 
-            <div id="header" class="header position-relative">
+            <div id="header" class="header position-relative h-400 justify-content-center align-items-center">
 
-                <div class="position-absolute" style="top: 0px; left: 0px; z-index: 15;">
-                    <div class="display-3 text-white justify-content-around">
+                <div class="position-relative" style="top: 0px; left: 0px; z-index: 15; height: 500px">
+                    <div class="display-3 text-white">
                         Street Food Thai Market
                         <br />
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -72,11 +72,11 @@
                         </button>   
                     </div>
                 </div> 
-                <div class="overlay w-100 h-100 bg-dark position-absolute" style="top: 0px; left: 0px; z-index: 10; opacity: .5;">
+                <div class="overlay w-100 h-100 bg-dark position-relative" style="top: 0px; left: 0px; z-index: 10; opacity: .5;">
                 </div>
     
-                <div class="video embed-responsive embed-responsive-16by9 w-100 h-100 position-absolute d-none d-md-block" style="top: 0px; left: 0px; z-index: 1">
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Emu3AchkHYQ?controls=0&amp;start=10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="video embed-responsive embed-responsive-16by9 position-absolute d-none d-md-block" style="top: 0px; left: 0px; z-index: 1;transform: translateY(-25%) ">
+                    <iframe src="https://www.youtube-nocookie.com/embed/Emu3AchkHYQ?controls=0&amp;start=10&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;showsearch=0&amp;showinfo=0&amp;modestbranding=1&amp;playlist=Emu3AchkHYQ" frameborder="0"></iframe>
                 </div>
             </div> <!-- /.header -->
             
@@ -132,21 +132,22 @@
                             </ol>  -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
-                                    <div class="carousel-content">
-                                        <div class="row justify-content-center align-content-center">
-                                            <div class="col-md-2 review-stars">
+                                    <div class="row w-100">
+                                        <div class="col-md-4 review-image">
+                                        </div>
+                                        <div class="col-md-8 review">
+                                            <div class="row review-stars align-items-center">
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
                                                 <span class="fas fa-star checked"></span>
-                                            </div>
-                                            <div class="col-md-10 review-text">
-                                                I love love love this place . But it isn't for the faint hearted foodie . The food taste so authentic, flavorful and when you say Thai spice they mean it , I always come hungry and leave with my spice addiction satisfied.
-                                                <br />
-                                                <p class="review-author">
+                                                <span class="review-author">
                                                     Yumi N.
-                                                </p>
+                                                </span>
+                                            </div>
+                                            <div class="row review-text">
+                                                I love love love this place . But it isn't for the faint hearted foodie . The food taste so authentic, flavorful and when you say Thai spice they mean it , I always come hungry and leave with my spice addiction satisfied.
                                             </div>
                                         </div>
                                     </div>
@@ -174,19 +175,22 @@
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row w-100">
-                                        <div class="col-md-4 review-stars">
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
-                                            <span class="fas fa-star checked"></span>
+                                        <div class="col-md-4 review-image">
                                         </div>
-                                        <div class="col-md-8 review-text">
-                                            I've been here many times, and I also went to Thailand (Bangkok, Ayutthaya, and Chiang Mai) a couple of months ago. I did not appreciate this restaurant until I went to Thailand since it's so authentic! The menu at this establishment is so extensive, and almost everything I've had has been delicious. There are some menu items (i.e. Kao Soi, Beef laab raw, Nam Khao, etc.) at this restaurant that will be very difficult to find here in the Houston, but staples in Thailand.
-                                            <br />
-                                            <p class="review-author">
-                                                David N.
-                                            </p>
+                                        <div class="col-md-8 review">
+                                            <div class="row review-stars align-items-center">
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="fas fa-star checked"></span>
+                                                <span class="review-author">
+                                                    David N.
+                                                </span>
+                                            </div>
+                                            <div class="row review-text">
+                                                I've been here many times, and I also went to Thailand (Bangkok, Ayutthaya, and Chiang Mai) a couple of months ago. I did not appreciate this restaurant until I went to Thailand since it's so authentic! The menu at this establishment is so extensive, and almost everything I've had has been delicious. There are some menu items (i.e. Kao Soi, Beef laab raw, Nam Khao, etc.) at this restaurant that will be very difficult to find here in the Houston, but staples in Thailand.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -35,13 +35,14 @@
 
 #reviewTextCarousel .review-text {
     font-style: italic;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #reviewTextCarousel .review-author {
     font-weight: bold;
     padding-top: 10px;
     padding-left: 15px;
+    font-weight: 800;
 }
 
 #reviewTextCarousel .checked {
