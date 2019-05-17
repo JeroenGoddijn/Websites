@@ -1,5 +1,5 @@
 .menu-block { margin-bottom: 30px; }
-.menu-title { border-bottom: 3px solid #e0e6e3; margin-bottom: 36px; padding-bottom: 10px; }
+.menu-title { border-bottom: 3px solid #e0e6e3; margin-bottom: 36px; padding-bottom: 10px; padding-top: 20px; text-align: center; font-size: 2.5rem; font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';}
 .menu-content { border-bottom: 1px solid #e0e6e3; margin-bottom: 30px; }
 .dish-img { }
 .dish-content { margin-top: 12px; margin-bottom: 40px; }
@@ -13,5 +13,7 @@
 .well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Zilla Slab', serif; position: inherit; }
 .page-title {
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #fed136;
 }

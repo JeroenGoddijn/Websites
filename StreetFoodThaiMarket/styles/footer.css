@@ -1,0 +1,73 @@
+.footer {
+    justify-content: around;
+    align-content: center;
+    align-items: center;
+    /* color: #fed136; */
+    height: 600px;
+}
+
+.spacer {
+    padding-top: 30px;
+}
+
+#footer-menu a {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: antiquewhite;
+}
+
+#footer-menu a:link {
+    color:  antiquewhite;
+    font-style: oblique;
+}
+
+#footer-menu a:hover {
+    color:  #fed136;
+}
+
+#footer-menu a:active {
+    color:#fed33669;
+}
+
+/* #footer-menu a:visited {
+    color: #c09f25;
+} */
+
+.card {
+    color: #c09f25;
+    border: none;
+}
+
+.card {
+    text-align: center;
+    width: 75%;
+}
+
+.card-deck {
+    padding-top: 50px;
+}
+
+.card-img-top {
+    height: 200px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+.card-body {
+    background-color:#f8f9fa;
+    color: #343a40;
+}
+
+.social-media i {
+    color: #fed33669;
+}
+
+.social-media-icon i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fed136;
+}
+
+#copyright {
+    color: gray;
+    font-size: 12px;
+}

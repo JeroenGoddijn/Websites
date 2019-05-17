@@ -1,201 +1,240 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Welcome to Street Food Thai Market | Authentic Thai Cuisine</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <!-- Google Fonts CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script" type="text/css">
 
     <!-- Custom style for this website -->
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/menu.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/global.css" type="text/css">
+    <link rel="stylesheet" href="styles/header.css" type="text/css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/menu.css" type="text/css">
+    <link rel="stylesheet" href="styles/footer.css" type="text/css">
 
-    </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
-        <div class="container-fluid p-0">
+</head>
 
-            <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark" id="mainNav">
-                <a class="navbar-brand" href="#">Street Food <img src="images/logo.png" alt="Thai Market"></a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul id="menu-main-nav" class="navbar-nav nav-fill mr-auto mt-2 mt-lg-0 w-100">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#locationhours">Location&Hours</a>
-                        </li>
-                            <!-- <li class="nav-item dropdown">
+<body data-spy="scroll" data-target=".navbar" data-offset="-400">
+    <div class="container-fluid p-0">
+
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark" id="mainNav">
+            <a class="navbar-brand" href="#">Street Food <img src="images/logo.png" alt="Thai Market"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul id="menu-main-nav" class="navbar-nav nav-fill mr-auto mt-2 mt-lg-0 w-100">
+                    <li class="nav-item">
+                        <a id="home" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="about" class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a id="menu" class="nav-link" href="menu.html">Menu</a> -->
+                        <a id="menu" class="nav-link" data-toggle="modal" data-target="#modalMenu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="locationhours" class="nav-link" href="#locationhours">Location&Hours</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
                                 <a class="dropdown-item" href="#">Action 1</a>
                                 <a class="dropdown-item" href="#">Action 2</a>
                             </div>
                         </li> -->
-                    </ul>
-                    <form class="form-inline w-100 my-2 my-lg-0" id="search">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
-                    </form>
-                </div>
-            </nav>
+                </ul>
+                <form class="form-inline w-100 my-2 my-lg-0" id="search">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
+                </form>
+            </div>
+        </nav>
 
-            <div id="header" class="header position-relative h-400 justify-content-center align-items-center">
+        <div id="header" class="header position-relative h-400 justify-content-center align-items-center">
 
-                <div class="position-relative" style="top: 0px; left: 0px; z-index: 15; height: 500px">
-                    <div class="display-3 text-white">
-                        Street Food Thai Market
-                        <br />
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Order Online Now
-                        </button>   
-                    </div>
-                </div> 
-                <div class="overlay w-100 h-100 bg-dark position-relative" style="top: 0px; left: 0px; z-index: 10; opacity: .5;">
+            <div class="position-relative d-flex justify-content-center align-items-end"
+                style="top: 0px; left: 0px; z-index: 15; height: 500px">
+                <div class="display-3 text-white">
+                    <!-- Street Food Thai Market
+                        <br /> -->
+                    <button type="button" class="btn btn-primary text-dark justify-end" data-toggle="modal"
+                        data-target="#modalMenu">
+                        Check out the Menu
+                    </button>
                 </div>
-    
-                <div class="video embed-responsive embed-responsive-16by9 position-absolute d-none d-md-block" style="top: 0px; left: 0px; z-index: 1;transform: translateY(-25%) ">
-                    <iframe src="https://www.youtube-nocookie.com/embed/Emu3AchkHYQ?controls=0&amp;start=10&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;showsearch=0&amp;showinfo=0&amp;modestbranding=1&amp;playlist=Emu3AchkHYQ" frameborder="0"></iframe>
-                </div>
-            </div> <!-- /.header -->
-            
-            
+            </div>
+            <div class="overlay w-100 h-100 bg-dark position-relative"
+                style="top: 0px; left: 0px; z-index: 10; opacity: .5;">
+            </div>
 
-            <div class="section d-flex bg-dark text-light m-0 position-relative justify-center" style="top: 0px; left: 0px;" id="about">
-                <div class="row m-0">
-                    <div class="col-md-5 offset-1 w-75 h-75">
-                            <div id="foodCarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
-                                <!-- <ol class="carousel-indicators">
-                                    <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselId" data-slide-to="1"></li>
-                                    <li data-target="#carouselId" data-slide-to="2"></li>
-                                </ol>  -->
-                                <div class="carousel-inner d-flex justify-content-center align-items-center" role="listbox">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" data-src="holder.js/900x500/auto/#777:#555/text:First slide" src="images/carousel/BeefJerky.jpg" alt="Beef Jerky">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" data-src="holder.js/900x500/auto/#666:#444/text:Second slide" src="images/carousel/KhaoSoiGai.jpg" alt="Khao Soi Gai">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" data-src="holder.js/900x500/auto/#666:#444/text:Third slide" src="images/carousel/RotiCurry.jpg" alt="Roti with Curry Sauce">
-                                    </div>
-                                </div>
-                                <!-- <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>  -->
-                            </div>  <!-- /#foodCarousel -->
+            <div class="video embed-responsive embed-responsive-16by9 position-absolute d-none d-md-block"
+                style="top: 0px; left: 0px; z-index: 1;transform: translateY(-25%) ">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/Emu3AchkHYQ?controls=0&amp;start=10&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;showsearch=0&amp;showinfo=0&amp;modestbranding=1&amp;playlist=Emu3AchkHYQ"
+                    frameborder="0"></iframe>
+            </div>
+        </div> <!-- /.header -->
+
+
+
+        <div class="section d-flex bg-dark text-light m-0 position-relative justify-center" style="top: 0px; left: 0px;"
+            id="about">
+            <div class="row d-flex justify-content-around align-items-center text-center text-lg-left text-md-left">
+                <div class="col-lg-5 col-md-5 col-5">
+                    <div class="row d-flex justify-content-around text-center text-lg-left">
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail"
+                                    src="images/authentic/AdobeStock_120220195_Preview.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail"
+                                    src="images/authentic/AdobeStock_201086564_Preview.jpeg" alt="">
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-5 lead h-100" id="about-title">
-                        <h2>Authentic Thai Street Food</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus elementum sagittis vitae et leo duis. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Enim sed faucibus turpis in eu. Nullam vehicula ipsum a arcu. Pellentesque elit eget gravida cum sociis natoque. Nunc mi ipsum faucibus vitae aliquet. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Eget mauris pharetra et ultrices neque. Placerat duis ultricies lacus sed. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. In fermentum et sollicitudin ac orci. Sollicitudin tempor id eu nisl nunc mi ipsum.
-                        </p>
+                    <div class="row d-flex justify-content-around text-center text-lg-left">
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail"
+                                    src="images/authentic/AdobeStock_163719905_Preview.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail"
+                                    src="images/authentic/AdobeStock_239777942_Preview.jpeg" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div> <!-- /about -->
-        
-            <div class="section bg-light text-dark w-100 m-0 position-relative justify-content-center" id="reviews">
-                <div class="row col-md-12">
-                    <div class="col-md-10 offset-2">
-                        <div id="reviewTextCarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
-                            <!-- <ol class="carousel-indicators">
+                <div class="col-lg-5 col-md-5 col-5 lead h-100" id="about-title">
+                    <h2>Authentic Thai Street Food</h2>
+                    <p>
+                        Remember those delicious flavors and scents of the food you ate in Thailand? We prepare
+                        authentic Thai food with love to bring these authentic flavors to you in Houston.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim
+                        diam. Tellus elementum sagittis vitae et leo duis.
+                    </p>
+                    <p>
+                        Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Pretium viverra
+                        suspendisse potenti nullam ac tortor vitae purus. Enim sed faucibus turpis in eu. Nullam
+                        vehicula ipsum a arcu.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /about -->
+
+        <div class="section bg-light text-dark w-100 m-0 position-relative justify-content-center" id="reviews">
+            <div class="row col-md-12">
+                <div class="col-md-10 offset-2">
+                    <div id="reviewTextCarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
+                        <!-- <ol class="carousel-indicators">
                                 <li data-target="#carouselId" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselId" data-slide-to="1"></li>
                                 <li data-target="#carouselId" data-slide-to="2"></li>
                             </ol>  -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item active">
-                                    <div class="row w-100">
-                                        <div class="col-md-4 review-image">
-                                        </div>
-                                        <div class="col-md-8 review">
-                                            <div class="row review-stars align-items-center">
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="review-author">
-                                                    Yumi N.
-                                                </span>
-                                            </div>
-                                            <div class="row review-text">
-                                                I love love love this place . But it isn't for the faint hearted foodie . The food taste so authentic, flavorful and when you say Thai spice they mean it , I always come hungry and leave with my spice addiction satisfied.
-                                            </div>
-                                        </div>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="row w-100">
+                                    <div class="col-md-4 review-image">
                                     </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row w-100">
-                                        <div class="col-md-4 review-image">
+                                    <div class="col-md-8 review">
+                                        <div class="row review-stars align-items-center">
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="review-author">
+                                                Yumi N.
+                                            </span>
                                         </div>
-                                        <div class="col-md-8 review">
-                                            <div class="row review-stars align-items-center">
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="review-author">
-                                                    Jordan C.
-                                                </span>
-                                            </div>
-                                            <div class="row review-text">
-                                                Want the best Thai food in Houston? Come here! This place is so unassuming from the outside and the store front resembles that of a "mini mart". That being said the food you get inside is so incredibly authentic and to say that it is just delicious is an injustice to the kitchen. They offer a variety of spice levels as well so it's very inclusive to those with a palate that is sensitive to spice.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row w-100">
-                                        <div class="col-md-4 review-image">
-                                        </div>
-                                        <div class="col-md-8 review">
-                                            <div class="row review-stars align-items-center">
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="fas fa-star checked"></span>
-                                                <span class="review-author">
-                                                    David N.
-                                                </span>
-                                            </div>
-                                            <div class="row review-text">
-                                                I've been here many times, and I also went to Thailand (Bangkok, Ayutthaya, and Chiang Mai) a couple of months ago. I did not appreciate this restaurant until I went to Thailand since it's so authentic! The menu at this establishment is so extensive, and almost everything I've had has been delicious. There are some menu items (i.e. Kao Soi, Beef laab raw, Nam Khao, etc.) at this restaurant that will be very difficult to find here in the Houston, but staples in Thailand.
-                                            </div>
+                                        <div class="row review-text">
+                                            I love love love this place . But it isn't for the faint hearted foodie .
+                                            The food taste so authentic, flavorful and when you say Thai spice they mean
+                                            it , I always come hungry and leave with my spice addiction satisfied.
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                            <div class="carousel-item">
+                                <div class="row w-100">
+                                    <div class="col-md-4 review-image">
+                                    </div>
+                                    <div class="col-md-8 review">
+                                        <div class="row review-stars align-items-center">
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="review-author">
+                                                Jordan C.
+                                            </span>
+                                        </div>
+                                        <div class="row review-text">
+                                            Want the best Thai food in Houston? Come here! This place is so unassuming
+                                            from the outside and the store front resembles that of a "mini mart". That
+                                            being said the food you get inside is so incredibly authentic and to say
+                                            that it is just delicious is an injustice to the kitchen. They offer a
+                                            variety of spice levels as well so it's very inclusive to those with a
+                                            palate that is sensitive to spice.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row w-100">
+                                    <div class="col-md-4 review-image">
+                                    </div>
+                                    <div class="col-md-8 review">
+                                        <div class="row review-stars align-items-center">
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="fas fa-star checked"></span>
+                                            <span class="review-author">
+                                                David N.
+                                            </span>
+                                        </div>
+                                        <div class="row review-text">
+                                            I've been here many times, and I also went to Thailand (Bangkok, Ayutthaya,
+                                            and Chiang Mai) a couple of months ago. I did not appreciate this restaurant
+                                            until I went to Thailand since it's so authentic! The menu at this
+                                            establishment is so extensive, and almost everything I've had has been
+                                            delicious. There are some menu items (i.e. Kao Soi, Beef laab raw, Nam Khao,
+                                            etc.) at this restaurant that will be very difficult to find here in the
+                                            Houston, but staples in Thailand.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
@@ -203,16 +242,20 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>  -->
-                        </div>
-                    </div>  <!-- /#reviewTextCarousel -->
-                </div>
-            </div> <!-- /reviews -->
-            
-            <div class="section bg-dark w-100 position-absolute" id="locationhours">
-                <div class="card-deck justify-content-center">
-                    <div class="col-md-4" id="location">
-                        <div class="card">
-                            <img class="card-img-top" src="images/venue/street-food-thai-market-feature-730x350.jpg" alt="Street Food Thai Market front">
+                    </div>
+                </div> <!-- /#reviewTextCarousel -->
+            </div>
+        </div> <!-- /reviews -->
+
+        <!-- footer -->
+        <div id="footer" class="footer">
+            <div class="container-fluid">
+                <div class="row card-deck bg-dark justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 offset-1 text-center">
+                        <div class="card bg-dark">
+                            <img id="store-front" class="card-img-top"
+                                src="images/venue/street-food-thai-market-feature-730x350.jpg"
+                                alt="Street Food Thai Market front">
                             <div class="card-body">
                                 <h4 class="card-title">Opening Hours</h4>
                                 <p class="card-text">
@@ -228,8 +271,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4" id="location">
-                        <div class="card">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                        <div id="location" class="card bg-dark">
                             <div id="map" class="card-img-top"></div>
                             <div class="card-body">
                                 <h4 class="card-title">Location</h4>
@@ -246,35 +289,114 @@
                             </div>
                         </div>
                     </div>
-                </div>    
+                </div>
+                <div class="row bg-dark spacer">
+                </div>
+                <div id="footer-menu" class="row bg-dark spacer justify-content-around">
+                    <div>
+
+                    </div>
+                    <div>
+                        <a class="footer-menu-link">Careers</a>
+                    </div>
+                    <div>
+                        <a class="footer-menu-link">Newsletter</a>
+                    </div>
+                    <div id="footer-menu-center social-media" class="social-media justify-content-center">
+                        <a class="social-media-icon"
+                            href="https://www.yelp.com/biz/street-food-thai-market-houston-2"><i
+                                class="fab fa-yelp fa-2x" alt="Yelp"></i></a>
+                        <a class="social-media-icon"
+                            href="https://www.facebook.com/Street-Food-Thai-Market-2278785849024684"><i
+                                class="fab fa-facebook-f fa-2x" aria-hidden="true" alt="Facebook"></i></a>
+                    </div>
+                    <div class="footer-menu-link">
+                        <a href="https://www.doordash.com/store/street-food-thai-market-houston-458865/"
+                            target="blank">Order Online</a>
+                    </div>
+                    <div>
+                        <a class="footer-menu-link">Store</a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div class="row bg-dark spacer">
+                </div>
+                <div id="copyright" class="row bg-dark justify-content-center">
+                    &copy;2019 by Jeroen Goddijn
+                </div>
+                <div class="row bg-dark spacer">
+                </div>
             </div>
-        
-    </div> <!-- .container-fluid -->
-        
+        </div> <!-- /footer -->
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
         <script>
-                // Initialize and add the map
-                function initMap() {
-                    // The location of Uluru
-                    var uluru = {lat: 29.804188, lng: -95.385149};
-                    // The map, centered at Uluru
-                    var map = new google.maps.Map(
-                        document.getElementById('map'), {zoom: 13, center: uluru});
-                    // The marker, positioned at Uluru
-                    var marker = new google.maps.Marker({position: uluru, map: map});
-                }
-            </script>
-            <!--Load the API from the specified URL
-            * The async attribute allows the browser to render the page while the API loads
-            * The key parameter will contain your own API key (which is not needed for this tutorial)
-            * The callback parameter executes the initMap() function
-            -->
-            <script async defer
+            // Initialize and add the map
+            function initMap() {
+                // The location of Uluru
+                var uluru = { lat: 29.804188, lng: -95.385149 };
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), { zoom: 13, center: uluru });
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({ position: uluru, map: map });
+            }
+        </script>
+        <!--Load the API from the specified URL
+        * The async attribute allows the browser to render the page while the API loads
+        * The key parameter will contain your own API key (which is not needed for this tutorial)
+        * The callback parameter executes the initMap() function
+        -->
+        <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyQHv1yw4IuppXmUwIKXyKUB2vBApPc2w&callback=initMap">
-            </script>        
-     </body>
+            </script>
+
+        <!--Modal: Name-->
+        <div class="modal fade" id="modalMenu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+
+                <!--Content-->
+                <div class="modal-content">
+
+                    <!--Body-->
+                    <div class="modal-body mb-0 p-0">
+
+                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                            <iframe class="embed-responsive-item" src="menu_modal.html" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="doordash-button btn btn-rounded btn-md ml-2"
+                            onclick="window.open('https://www.doordash.com/store/street-food-thai-market-houston-458865/','_blank')"></button>
+
+                        <button type="button" class="btn btn-outline-danger btn-rounded btn-md ml-4"
+                            data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+                <!--/.Content-->
+
+            </div>
+        </div>
+        <!--Modal: Name-->
+    </div><!-- /container-fluid -->
+</body>
+
 </html>

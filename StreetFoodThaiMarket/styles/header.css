@@ -9,6 +9,10 @@
     font-size: 30px;
 }
 
+nav a:active a:hover {
+    background-color: lightgray;
+}
+
 #mainNav .navbar-brand img {
     height: 70px;
 }
@@ -22,8 +26,55 @@
     border-color: #fed136;
 }
 
+.doordash-button {
+    /* width: 215px;
+    height: 59px; */
+    width: 209px;
+    height: 45px;
+    padding: 4px 4px;
+    text-decoration: none; 
+    /* background-image: url(https://cdn.doordash.com/media/button/button_red_l.svg); */
+    background-image: url(https://cdn.doordash.com/media/button/button_red_m.svg);
+    color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+/* .doordash-button a:link, a:visited {
+    color: #fed33669;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 5px;
+
+  }
+  
+.doordash-button a:hover, a:active {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 5px;
+  } */
+
+
 .header {
     height: 50%;
     width: 100vw;
     overflow: hidden;
+}
+
+.btn-primary {
+    background-color: #fed136;
+    border-color: #f8f9fa;
+    border-width: 3px;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background-color: #f8f9fa;
+    border-color: #fed136;
+    border-width: 3px;
+    font-weight: 700;
 }
