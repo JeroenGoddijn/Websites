@@ -1,4 +1,18 @@
 
+.embed-responsive-16by9 {
+    height: 90vh;
+}
+/* modal-content needs to be set to 90 percent on MOBILE ONLY */
+.modal-content {
+    height: 100%;
+}
+/* .modal-body {
+    height: 100%;
+} */
+.modal-footer {
+    height: 10vh;
+}
+
 .section {
     height: 600px;
     padding-top: 50px;
@@ -7,7 +21,7 @@
     overflow: hidden;
 }
 
-#about-title h2 {
+#about-text h2 {
     padding-top: 30px;
     padding-bottom: 20px;
     color: #fed136;
@@ -33,6 +47,10 @@
     padding-bottom: 30px;
 }
 
+#reviewTextCarousel .review-stars {
+    padding: 0px 15px;
+}
+
 #reviewTextCarousel .review-text {
     font-style: italic;
     font-weight: 600;
@@ -41,7 +59,7 @@
 #reviewTextCarousel .review-author {
     font-weight: bold;
     padding-top: 10px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     font-weight: 800;
 }
 
